@@ -1,0 +1,18 @@
+//预约单
+{
+  "code":"201606011234",           //预约单号
+  "company":"Google",              //委托人
+  "plateNumber":"沪A123456",      //车牌号
+  "eta":"AM 2:00 - AM 3:00",      //到货时间
+  "platformNumber":"01",           //到货月台
+  "goodsList":[                     //预约到货列表
+    {
+      "goodsName":"棉花",          //货物名称
+      "advanceNumber":100,         //预计到货数量
+      "actualNumber":0,            //实际到货数量
+      "palletList":[               //托盘列表
+        //托盘 pallet.json
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+//托盘
+{
+  "code":"AB123-345-67",             //托盘号
+  "advanceNumber":20,                //预计上托数量
+  "actualNumber":0,                  //实际上托数量
+  "goods":{                           //上托货物
+    "name":"棉花",                    //货物名称
+    "batchNumber":"2016080001",     //货物批次
+    "pieces":10,                      //件数
+    "weight":100,                     //重量
+    "volume":100,                     //体积
+    "productionDate":"2016-06-01",  //生产日期
+    "temperature":-10,                //温度
+    "quality":true,                   //品质
+    "images":[                         //商品图片
+
+    ]
+  }
+}

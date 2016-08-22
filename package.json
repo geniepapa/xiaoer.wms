@@ -1,0 +1,24 @@
+{
+  "name": "wms",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "buildRelease": "cd android && ./gradlew assembleRelease",
+    "installRelease": "cd android && ./gradlew installRelease"
+  },
+  "dependencies": {
+    "react": "^0.14.8",
+    "react-native": "^0.25.1",
+    "react-native-action-button": "^1.0.8",
+    "react-native-android-statusbar": "^0.1.2",
+    "react-native-barcodescanner": "^3.0.0",
+    "react-native-camera": "^0.3.8",
+    "react-native-code-push": "^1.14.5-beta",
+    "react-native-image-picker": "^0.19.6",
+    "react-native-material-design": "git+https://github.com/react-native-material-design/react-native-material-design.git",
+    "react-native-material-design-styles": "^0.2.6",
+    "react-native-swiper": "^1.4.7",
+    "redux-form": "^5.3.1"
+  }
+}
